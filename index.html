@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pound Industries | JavaScript Mini Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="https://poundindustries.gumroad.com/" target="_blank" rel="noopener noreferrer">
+                <span class="brand-mark">PI</span>
+                <span>POUND INDUSTRIES</span>
+            </a>
+            <a class="store-link" href="https://poundindustries.gumroad.com/" target="_blank" rel="noopener noreferrer">
+                VISIT THE STORE ↗
+            </a>
+        </div>
+    </header>
+
+    <main class="page-wrap">
+        <section class="hero">
+            <p class="eyebrow">POUND INDUSTRIES // SYSTEM DEMO 09</p>
+            <h1>JavaScript <span>Mini Demo</span></h1>
+            <p class="hero-copy">a little look at the date, number checks, and some quick math. nothing too complicated, just testing things out.</p>
+            <div class="hero-tags">
+                <span>CYBER COLLECTION</span>
+                <span>ANUBIAN SYNTHETICS</span>
+                <span>COMP 484</span>
+            </div>
+        </section>
+
+        <section class="demo-section">
+            <div class="section-heading">
+                <span class="section-number">01</span>
+                <div>
+                    <p class="eyebrow">CURRENT SYSTEM DATE</p>
+                    <h2>Date Display</h2>
+                </div>
+            </div>
+            <p class="section-intro">this just grabs today's date and puts it in the format the assignment asks for.</p>
+            <div class="output-panel">
+                <p class="output-label">DATE OUTPUT</p>
+                <p id="dateOutput" class="date-output">date will show up here</p>
+            </div>
+        </section>
+
+        <section class="demo-section">
+            <div class="section-heading">
+                <span class="section-number">02</span>
+                <div>
+                    <p class="eyebrow">INPUT CHECK // NUMBER OBJECT</p>
+                    <h2>Number Conversion Tests</h2>
+                </div>
+            </div>
+            <p class="section-intro">checking which strings turn into numbers and which ones don't. the decimal one should stay a decimal.</p>
+            <div id="numberConversionOutput" class="results-grid">
+                <p>the number results will show up here.</p>
+            </div>
+        </section>
+
+        <section class="demo-section">
+            <div class="section-heading">
+                <span class="section-number">03</span>
+                <div>
+                    <p class="eyebrow">STORE CHECKOUT // MATH</p>
+                    <h2>Math and Number Formatting</h2>
+                </div>
+            </div>
+            <p class="section-intro">using a small pretend store order to test adding prices, calculating tax, and formatting the total.</p>
+            <div id="mathOutput" class="output-panel">
+                <p>the math results will show up here.</p>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div>
+                <p class="eyebrow">POUND INDUSTRIES</p>
+                <p class="footer-copy">made for COMP 484 // JavaScript Built-In Objects</p>
+            </div>
+            <a href="https://poundindustries.gumroad.com/" target="_blank" rel="noopener noreferrer">GUMROAD STORE ↗</a>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
