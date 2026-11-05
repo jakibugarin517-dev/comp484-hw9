@@ -1,4 +1,4 @@
-# Pound Industries - JavaScript Mini Demo
+# Pound Industries - JavaScript Mini Demo https://jakibugarin517-dev.github.io/comp484-hw9/
 
 This is my COMP 484 Homework 9 project. I used my Pound Industries Gumroad page as the theme, so the demo has a dark cyber look with cyan and gold details.
 
